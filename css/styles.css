@@ -571,7 +571,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1140px;
+    max-width: 900px;
   }
 }
 .row {
@@ -10492,8 +10492,4 @@ section#contact form#contactForm :-ms-input-placeholder {
 .hideit {
   visibility: hidden;
   opacity: 0;
-}
-h6 {
-  margin-top: 0.5em;
-  font-family: 'Kaushan Script', cursive;
 }

@@ -3874,11 +3874,14 @@ input[type=button].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  
 }
 
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  font-weight: bold;
+  
 }
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
@@ -9993,7 +9996,6 @@ p {
   font-size: 2rem;
   margin-top: 0;
   margin-bottom: 1rem;
-  font-family: 'Kaushan Script', cursive;
 }
 .page-section h3.section-subheading {
   font-size: .8rem;
@@ -10117,14 +10119,15 @@ img::-moz-selection {
   }
 }
 header.masthead {
-  max-height: 43em;
+  max-height: 35em;
   text-align: center;
   background-color: #fff;
-  /* background-image: url("../assets/img/Lifebanner.png"); */
+  background-image: url("../assets/img/Banner2.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  /* background-position: center center;
-  background-size: cover; */
+  background-position: center center;
+  background-size: cover;
+  
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
@@ -10141,7 +10144,7 @@ header.masthead .masthead-heading {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-@media (min-width: 768px) {
+@media (min-width: 390px) {
   /* header.masthead {
   
     padding-bottom: 12.5rem; */
@@ -10260,7 +10263,7 @@ header.masthead .masthead-heading {
 .timeline > li {
   position: relative;
   min-height: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .timeline > li:after, .timeline > li:before {
   display: table;
@@ -10344,7 +10347,7 @@ header.masthead .masthead-heading {
   }
   .timeline > li {
     min-height: 100px;
-    margin-bottom: 100px;
+
   }
   .timeline > li .timeline-panel {
     float: left;

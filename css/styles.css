@@ -10428,7 +10428,7 @@ header.masthead .masthead-heading {
 
 section#contact {
   
-  background: url("../assets/img/map-image.png") , linear-gradient(to bottom, rgba(92, 77, 66, 0.6) 0%, rgba(237, 114, 19, 0.6) 100%);
+  background: url("../assets/img/map-image.png") , linear-gradient(to bottom, rgba(24, 37, 92, 0.6) 0%, rgba(177, 62, 62, 0.6) 100%);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -10490,7 +10490,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; */
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.5) 0%, rgba(237, 114, 19, 0.8) 100%);
+  background: linear-gradient(to bottom, rgba(24, 37, 92, 0.5) 0%, rgba(177, 62, 62, 0.8) 100%);
 }
 .hideit {
   visibility: hidden;

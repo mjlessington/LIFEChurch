@@ -2,5 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/osvlijrau8ds/public_html/lifechurchofatlanta.org/lifechurchmedia/
-    - /bin/cp * -R $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
     

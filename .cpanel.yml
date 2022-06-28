@@ -2,4 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/osvlijrau8ds/public_html/lifechurchofatlanta.org/lifechurchmedia
-    - /bin/cp -R /Volumes/Mell's External Drive/melllessington/lifechurch $DEPLOYPATH
+    - /bin/cp -R lifechurch $DEPLOYPATH
+    

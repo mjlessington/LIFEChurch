@@ -43,47 +43,68 @@
         <header class="masthead" >
                 <img class="img-fluid" id="hide-img" src="assets/img/BigBanner.png" alt="hero">
         </header>
+
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio" style="background: linear-gradient(to top, rgba(24, 37, 92, 0.5) 0%, rgba(177, 62, 62, 0.8) 100%);">
+            <div class="container">
+                <div class="container mt-2 mb-4">
+                    <div class="row container justify-content-between">
+                        <a class="btn-lg btn-primary text-uppercase js-scroll-trigger" href="about.html">About LIFE</a>
+                        <a class="btn-lg btn-primary text-uppercase js-scroll-trigger" href="connect.html">Connect</a>
+                        <a class="btn-lg btn-primary js-scroll-trigger text-uppercase" data-toggle="modal" data-target="#giveModal">Give</a>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <h2 class="section-heading">Watch Latest LIFE Experience</h2>
+                </div>
+                <iframe width="100%" height="500" src="https://www.youtube.com/embed/QU7q4nRhih0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <div class="text-center">
+                    <h3 class="section-heading mt-2">Subscribe to LIFE Social Media & Streaming Platforms</a></h3>
+                </div>
+                <div class="row justify-content-center mt-4">
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.tiktok.com/t/ZTRMxQAs2/?k=1"><i class="fab fa-tiktok fa-lg"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/lifechurch.9"><i class="fab fa-facebook-f fa-lg"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://instagram.com/bestlifeatl"><i class="fab fa-instagram fa-lg"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.youtube.com/channel/UCqzaMTW_OVvzr-Aa8TU4y1Q"><i class="fab fa-youtube fa-lg"></i></a>
+                    </div>
+            </div>
+        </section>
+        
         <!-- Services-->
         <section class="page-section" id="services">
-            <div class="container mb-4">
-                <div class="row container justify-content-between">
-                    <a class="btn btn-primary text-uppercase js-scroll-trigger" href="https://www.youtube.com/LifeChurchOfAtlanta">Watch</a>
-                    <a class="btn btn-primary text-uppercase js-scroll-trigger" href="connect.html">Connect</a>
-                    <a class="btn btn-primary js-scroll-trigger text-uppercase" data-toggle="modal" data-target="#giveModal">Give</a>
-                </div>
-            </div>
-        <!-- Give Modal -->
-        <div class="modal fade" id="giveModal" tabindex="-1" aria-labelledby="giveModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-body">
-                    <div class="container d-flex">
-                        <h5>Give Now by clicking → </h5>
-                        <form class="" name="PrePage" method = "post" action = "https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx"> <input type = "hidden" name = "LinkId" value ="31e8155c-ce19-4248-bef3-af02b5467aac" /> <input type = "image" src ="assets/img/donate-blue.gif" /> </form>
+            <!-- Give Modal -->
+            <div class="modal fade" id="giveModal" tabindex="-1" aria-labelledby="giveModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="container d-flex">
+                            <h5>Give Now by clicking → </h5>
+                            <form class="" name="PrePage" method = "post" action = "https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx"> <input type = "hidden" name = "LinkId" value ="31e8155c-ce19-4248-bef3-af02b5467aac" /> <input type = "image" src ="assets/img/donate-blue.gif" /> </form>
+                        </div>
+                        <h5 class="text-center">Other Ways to Give:</h5>
+                        <img class="img-fluid" src="assets/img/giving.jpeg" alt="">
                     </div>
-                    <h5 class="text-center">Other Ways to Give:</h5>
-                    <img class="img-fluid" src="assets/img/giving.jpeg" alt="">
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+    
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
             <div class="container border" style="background-color: rgba(255, 255, 255, 0.6)">
                 <div class="text-center">
-                    <h2 class="section-heading ">Experience LIFE</h2>
-                    <h3 class="section-subheading text-dark font-weight-bold">Gathering Times and Christian Education</h3>
+                        <h2 class="section-heading ">Experience LIFE</h2>
+                        <h3 class="section-subheading text-dark font-weight-bold">Gathering Times and Christian Education</h3>
                 </div>
                 <div class="row text-center justify-content-center">
                     <div class="col-md-4">
-                        <h6 class="my-3">Sunday</h6>
-                        <p class="text-dark font-weight-bold">Sunday
-                            Corporate Prayer | 8:30am <br>
-                            LIFE Institute | 9am <br>
-                            Sunday LIFE Experience | 10am 
-                            </p>
+                            <h6 class="my-3">Sunday</h6>
+                            <p class="text-dark font-weight-bold">Sunday
+                                Corporate Prayer | 8:30am <br>
+                                LIFE Institute | 9am <br>
+                                Sunday LIFE Experience | 10am 
+                                </p>
                     </div>
                     <div class="col-md-4">
                         
@@ -93,198 +114,121 @@
                             Midweek LIFE Experience | 7pm </p>
                     </div>
                 </div>
-
-                <div class="row justify-content-center">
-                        <!-- Button trigger modal -->
+    
+                    <div class="row justify-content-center">
+                            <!-- Button trigger modal -->
                         <a type="link" class="mx-2" data-toggle="modal" data-target="#exampleModal">
-                            Ministry and Service Opportunities
-                        </a>
-                    
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-scrollable">
-                            <div class="modal-content">
-                                <div class="modal-header" style="background: linear-gradient(to top, rgba(24, 37, 92, 0.5) 0%, rgba(237, 114, 19, 0.8));">
-                                <h5 class="modal-title"id="exampleModalLabel">Ministry and Service Opportunities</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                                </div>
-                                <div class="modal-body">
-                                    <h6>Agape:</h6>
-                                    The objective of the Agape Ministry is to provide and maintain family closeness, as LIFE membership increases. We endeavor to promote unity as a church body by spreading unconditional love.
-                                    <br/>
-                                    <h6> Doorkeepers of LIFE:</h6>
-                                    The Doorkeepers Ministry serve by maintaining the sanctuary during worship. Collectively they maintain structure, order, and comfort by ensuring that parishioners receive the most from their LIFE Worship Experience.
-                                    <br/>
-                                    <h6>Extended Hands:</h6>
-                                    Also known as EMH, this group works to extend a warm reception to our guests from the beginning to the end of our services, ensuring an unforgettable LIFE experience. LIFE Greeters greet each guest as they enter our sanctuary, and a special First Time Visitor Reception is prepared each Sunday for our visitors, which allows Pastor Merritt to personally meet and greet each guest at the end of the worship service. EHM upholds our Pastor in prayer and provide pastoral care to him and to our guest ministers. EHM also prepares a Birthday/ Anniversary Reception each quarter to celebrate members of LIFE who are celebrating birthdays or anniversaries.
-                                    <br/>​
-                                    <h6>Intercessors: </h6>
-                                    The Intercessory Ministry undergirds the vision and the lives that are connected to LIFE. We are appointed to pray and fast for LIFE Church, its leadership, members, partners, churches, and all endeavors that are in any way connected to the ministry.
-                                    <br/>
-                                    <h6>LIFE Media & Communications:</h6>
-                                    This team is so much more than your average media ministry... The LIFE Media group provides cutting edge ministry through technology, including video, digital graphic design, printed media and photography. We also run the social media arm (Facebook, Twitter, Instagram, etc) of the church, which takes LIFE to those outside of our 4 walls. This group includes, but aren't limited to:
-                                    <br/>
-                                    <ul>
-                                        <li>LIFE Writes (Writers Guild for authors and those who love writing) </li>
-                                        <li>AV Techs and Camera Crew </li>
-                                        <li>LIFE In-Touch Broadcasting Network </li>
-                                        <li>Social Media Team</li>
-                                        <li>LIFE Bookstore </li>
-                                        <li>Announcers Guild </li>
-                                        <li>Graphic Designers </li>
-                                        <li>Web Managers </li>
-                                        <li>LIFE Photography</li>
-                                    </ul>
-                                    <br/>
-                                    <h6>Membership Services:</h6>  
-                                    Also known as MSM, this group ensures that the LIFE Family remains a close knit body of believers. "We don't want anyone to get lost or feel lost, as we grow." MSM leaders are liaisons who offer a great service to our members. We initiate support in time of illness, bereavement, counseling, weddings, baptisms etc. We also reach out to members who are less active and encourage them to reignite their passion for ministry by becoming involved. Our ultimate goal is to lighten Pastor's load and to attend to the needs of every LIFER. 
-                                    <br/>
-                                    <h6>Merged College and Young Adults:</h6>
-                                    Merged is one of the newest ministry plants of LIFE Church. It serves the young adults of our congregation and our community. We have some of the most productive Alum, entrepreneurs, young professionals, and young creatives. Merged also serves at the College Ministry, across 4 of the largest college campuses in Atlanta. Our primary school bases include one PWI, Georgia State University and 3 HBCUs, Morehouse College, Spelman College and Clark Atlanta University. These 4 schools serve as the hub bases for our College connection. We also have students who attend other schools across the city, state and country, and we proudly serve them as well. 
-                                    <br/>
-                                    <h6>Mothers Board:</h6>
-                                    The Mothers Board are made up of seasoned women who have devoted their lives to serving the Lord, and have become an example of Godliness and holiness to the next generation. These women are devoted to praying for the ministry and its leaders, aiding the pastor whenever needed, and especially teaching the young women of LIFE. They hold fellowships quarterly in which they teach and inspire the ladies. 
-                                    <br/>
-                                    <h6>Music and Arts Ministry:</h6>
-                                    The Music Ministry is a dedicated group of worshipers chosen specifically to lend their voices in worship to God in song via the LIFE Praise and Worship Team, the LIFE Chorale, and the LIFE Sanctuary Choir. The music ministers are dedicated to preparing and delivering to every person who enters LIFE Church the ultimate worship experience.
-                                    <br/>
-                                    <h6>New Member Orientation Staff:</h6>
-                                    NMO team provide New Members with an atmosphere where they can learn about their new connection LIFE Church. Upon completion of all lessons, a graduation celebration is held during our morning worship where each new member is presented with a gift from their new church family. 
-                                    <br/>
-                                    <h6>Security Team:</h6>
-                                    The Security Ministry maintains a peaceful, safe environment, which is conducive to worship. We decrease the opportunity for crime, and we facilitate maximum member participation in crime prevention by following basic rules and guidelines. We provide physical and emotional security to our members and to our visitors, when attending activities of the church. The Security Ministry of LIFE Church will provide a safe surrounding for church activities that include the collecting of tithes and offerings, parking, and general physical security.
-                                    <br/>
-                                    <h6>Treasury Department:</h6>
-                                    The LIFE Church Treasury Department maintains an effective financial structure that enables LIFE to be a productive and impactful ministry. The wise stewardship of our monetary resources makes possible a solid ministry of outreach to and through the community. LIFERS are encouraged to have a certain healthy relationship with money in their own lives, not only by tithing and giving to ministry, but also by saving and investing.
-                                    <br/>
-                                    <h6>Y'Church:</h6>
-                                    The Y'Church is our student and youth ministry of LIFE. This team of passionate leaders ensure that the youth of LIFE Church and those of the community RADICALLY understand who they are in Jesus Christ (WE ARE OUR J'S!). This is a movement that has been called to literally reach nations; it's the Y that The Church has been missing.
-                                    <br/>
-                                    <h6>Young Ladies of LIFE:</h6>
-                                    This group of women aspires to build young women’s beauty, self-esteem, self worth and self-image. This ministry was designed to be an artistic platform to help serve young women (primarily ages 13-25) in their transition into different areas of life. The Young Ladies of LIFE connect young women with one another. This group is a goal oriented ministry that fosters an environment that will help one to achieve positive life results. Together this ministry helps to create tools that will allow each young woman to be the best that she can be! 
-                                    ​
-                                </div>
-                                <div class="modal-footer" style="background: linear-gradient(to bottom, rgba(24, 37, 92, 0.3) 0%, rgba(121, 19, 237, 0.8));">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                        <!-- Button trigger modal -->
-                        <a type="link" class="mx-2"  data-toggle="modal" data-target="#beliefModal">
-                            What We Believe
-                        </a>
+                                Ministry and Service Opportunities
+                            </a>
                         
-                        <!-- Belief Modal -->
-                        <div class="modal fade" id="beliefModal" tabindex="-1" aria-labelledby="beliefModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header" style="background: linear-gradient(to top, rgba(24, 37, 92, 0.5) 0%, rgba(237, 114, 19, 0.8));">
-                                <h5 class="modal-title" id="beliefModalLabel">We Affirm Our Faith</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header" style="background: linear-gradient(to top, rgba(24, 37, 92, 0.5) 0%, rgba(237, 114, 19, 0.8));">
+                                    <h5 class="modal-title"id="exampleModalLabel">Ministry and Service Opportunities</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h6>Agape:</h6>
+                                        The objective of the Agape Ministry is to provide and maintain family closeness, as LIFE membership increases. We endeavor to promote unity as a church body by spreading unconditional love.
+                                        <br/>
+                                        <h6> Doorkeepers of LIFE:</h6>
+                                        The Doorkeepers Ministry serve by maintaining the sanctuary during worship. Collectively they maintain structure, order, and comfort by ensuring that parishioners receive the most from their LIFE Worship Experience.
+                                        <br/>
+                                        <h6>Extended Hands:</h6>
+                                        Also known as EMH, this group works to extend a warm reception to our guests from the beginning to the end of our services, ensuring an unforgettable LIFE experience. LIFE Greeters greet each guest as they enter our sanctuary, and a special First Time Visitor Reception is prepared each Sunday for our visitors, which allows Pastor Merritt to personally meet and greet each guest at the end of the worship service. EHM upholds our Pastor in prayer and provide pastoral care to him and to our guest ministers. EHM also prepares a Birthday/ Anniversary Reception each quarter to celebrate members of LIFE who are celebrating birthdays or anniversaries.
+                                        <br/>​
+                                        <h6>Intercessors: </h6>
+                                        The Intercessory Ministry undergirds the vision and the lives that are connected to LIFE. We are appointed to pray and fast for LIFE Church, its leadership, members, partners, churches, and all endeavors that are in any way connected to the ministry.
+                                        <br/>
+                                        <h6>LIFE Media & Communications:</h6>
+                                        This team is so much more than your average media ministry... The LIFE Media group provides cutting edge ministry through technology, including video, digital graphic design, printed media and photography. We also run the social media arm (Facebook, Twitter, Instagram, etc) of the church, which takes LIFE to those outside of our 4 walls. This group includes, but aren't limited to:
+                                        <br/>
+                                        <ul>
+                                            <li>LIFE Writes (Writers Guild for authors and those who love writing) </li>
+                                            <li>AV Techs and Camera Crew </li>
+                                            <li>LIFE In-Touch Broadcasting Network </li>
+                                            <li>Social Media Team</li>
+                                            <li>LIFE Bookstore </li>
+                                            <li>Announcers Guild </li>
+                                            <li>Graphic Designers </li>
+                                            <li>Web Managers </li>
+                                            <li>LIFE Photography</li>
+                                        </ul>
+                                        <br/>
+                                        <h6>Membership Services:</h6>  
+                                        Also known as MSM, this group ensures that the LIFE Family remains a close knit body of believers. "We don't want anyone to get lost or feel lost, as we grow." MSM leaders are liaisons who offer a great service to our members. We initiate support in time of illness, bereavement, counseling, weddings, baptisms etc. We also reach out to members who are less active and encourage them to reignite their passion for ministry by becoming involved. Our ultimate goal is to lighten Pastor's load and to attend to the needs of every LIFER. 
+                                        <br/>
+                                        <h6>Merged College and Young Adults:</h6>
+                                        Merged is one of the newest ministry plants of LIFE Church. It serves the young adults of our congregation and our community. We have some of the most productive Alum, entrepreneurs, young professionals, and young creatives. Merged also serves at the College Ministry, across 4 of the largest college campuses in Atlanta. Our primary school bases include one PWI, Georgia State University and 3 HBCUs, Morehouse College, Spelman College and Clark Atlanta University. These 4 schools serve as the hub bases for our College connection. We also have students who attend other schools across the city, state and country, and we proudly serve them as well. 
+                                        <br/>
+                                        <h6>Mothers Board:</h6>
+                                        The Mothers Board are made up of seasoned women who have devoted their lives to serving the Lord, and have become an example of Godliness and holiness to the next generation. These women are devoted to praying for the ministry and its leaders, aiding the pastor whenever needed, and especially teaching the young women of LIFE. They hold fellowships quarterly in which they teach and inspire the ladies. 
+                                        <br/>
+                                        <h6>Music and Arts Ministry:</h6>
+                                        The Music Ministry is a dedicated group of worshipers chosen specifically to lend their voices in worship to God in song via the LIFE Praise and Worship Team, the LIFE Chorale, and the LIFE Sanctuary Choir. The music ministers are dedicated to preparing and delivering to every person who enters LIFE Church the ultimate worship experience.
+                                        <br/>
+                                        <h6>New Member Orientation Staff:</h6>
+                                        NMO team provide New Members with an atmosphere where they can learn about their new connection LIFE Church. Upon completion of all lessons, a graduation celebration is held during our morning worship where each new member is presented with a gift from their new church family. 
+                                        <br/>
+                                        <h6>Security Team:</h6>
+                                        The Security Ministry maintains a peaceful, safe environment, which is conducive to worship. We decrease the opportunity for crime, and we facilitate maximum member participation in crime prevention by following basic rules and guidelines. We provide physical and emotional security to our members and to our visitors, when attending activities of the church. The Security Ministry of LIFE Church will provide a safe surrounding for church activities that include the collecting of tithes and offerings, parking, and general physical security.
+                                        <br/>
+                                        <h6>Treasury Department:</h6>
+                                        The LIFE Church Treasury Department maintains an effective financial structure that enables LIFE to be a productive and impactful ministry. The wise stewardship of our monetary resources makes possible a solid ministry of outreach to and through the community. LIFERS are encouraged to have a certain healthy relationship with money in their own lives, not only by tithing and giving to ministry, but also by saving and investing.
+                                        <br/>
+                                        <h6>Y'Church:</h6>
+                                        The Y'Church is our student and youth ministry of LIFE. This team of passionate leaders ensure that the youth of LIFE Church and those of the community RADICALLY understand who they are in Jesus Christ (WE ARE OUR J'S!). This is a movement that has been called to literally reach nations; it's the Y that The Church has been missing.
+                                        <br/>
+                                        <h6>Young Ladies of LIFE:</h6>
+                                        This group of women aspires to build young women’s beauty, self-esteem, self worth and self-image. This ministry was designed to be an artistic platform to help serve young women (primarily ages 13-25) in their transition into different areas of life. The Young Ladies of LIFE connect young women with one another. This group is a goal oriented ministry that fosters an environment that will help one to achieve positive life results. Together this ministry helps to create tools that will allow each young woman to be the best that she can be! 
+                                        ​
+                                    </div>
+                                    <div class="modal-footer" style="background: linear-gradient(to bottom, rgba(24, 37, 92, 0.3) 0%, rgba(121, 19, 237, 0.8));">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
                                 </div>
-                                <div class="modal-body">
-                                    <strong>We believe the Bible</strong> to be the inspired and only infallible written word of God. We believe that there is One God, eternally existent in three Persons; God the Father, God the Son, and God the Holy Spirit.<br/>
-                                    <strong>We believe in the Blessed Hope</strong>, which is the rapture of the church of God, which is in Christ, at His return.<br/>
-                                    <strong>We believe that the only means of being cleansed from sin</strong> is through repentance, faith in the precious Blood of Jesus Christ.<br/>
-                                    <strong>We believe that regeneration by the Holy Ghost</strong> is absolutely essential for personal salvation.<br/>
-                                    <strong>We believe that the redemptive work of Christ on the Cross </strong>provides healing for the human body in answer to believing in prayer.<br/>
-                                    <strong>We believe that the baptism in the Holy Ghost</strong>, according to Acts 2:4, is given to believers who ask for it.<br/>
-                                    <strong>We believe in the sanctifying power of the Holy Spirit</strong>, by whose indwelling, the Christian is enabled to live a holy and separated life in this present world.
-                                    
-                                </div>
-                                <div class="modal-footer" style="background: linear-gradient(to bottom, rgba(24, 37, 92, 0.3) 0%, rgba(121, 19, 237, 0.8));">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                 </div>
                             </div>
+                            <!-- Button trigger modal -->
+                            <a type="link" class="mx-2"  data-toggle="modal" data-target="#beliefModal">
+                                What We Believe
+                            </a>
+                            
+                            <!-- Belief Modal -->
+                            <div class="modal fade" id="beliefModal" tabindex="-1" aria-labelledby="beliefModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header" style="background: linear-gradient(to top, rgba(24, 37, 92, 0.5) 0%, rgba(237, 114, 19, 0.8));">
+                                    <h5 class="modal-title" id="beliefModalLabel">We Affirm Our Faith</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <strong>We believe the Bible</strong> to be the inspired and only infallible written word of God. We believe that there is One God, eternally existent in three Persons; God the Father, God the Son, and God the Holy Spirit.<br/>
+                                        <strong>We believe in the Blessed Hope</strong>, which is the rapture of the church of God, which is in Christ, at His return.<br/>
+                                        <strong>We believe that the only means of being cleansed from sin</strong> is through repentance, faith in the precious Blood of Jesus Christ.<br/>
+                                        <strong>We believe that regeneration by the Holy Ghost</strong> is absolutely essential for personal salvation.<br/>
+                                        <strong>We believe that the redemptive work of Christ on the Cross </strong>provides healing for the human body in answer to believing in prayer.<br/>
+                                        <strong>We believe that the baptism in the Holy Ghost</strong>, according to Acts 2:4, is given to believers who ask for it.<br/>
+                                        <strong>We believe in the sanctifying power of the Holy Spirit</strong>, by whose indwelling, the Christian is enabled to live a holy and separated life in this present world.
+                                        
+                                    </div>
+                                    <div class="modal-footer" style="background: linear-gradient(to bottom, rgba(24, 37, 92, 0.3) 0%, rgba(121, 19, 237, 0.8));">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-            </div>
-        </section>
-        <!-- Portfolio Grid-->
-        <section class="page-section bg-light" id="portfolio" style="background: linear-gradient(to top, rgba(24, 37, 92, 0.5) 0%, rgba(177, 62, 62, 0.8) 100%);">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading">Watch Latest LIFE Experience</h2>
                 </div>
-                <iframe width="100%" height="500" src="https://www.youtube.com/embed/TN4Qi4l0U7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <div class="text-center">
-                    <h3 class="section-heading mt-2"><a class="text-dark" type="link" href="https://www.youtube.com/c/LIFECHURCHOFATLANTA/videos?view=0&sort=dd&shelf_id=0">Watch More</a></h3>
-                </div>
-            </div>
-        </section>
-        <!-- About-->
-        <section class="page-section" id="about" style="background: linear-gradient(to top, rgba(24, 37, 92, 0.5) 0%, rgba(177, 62, 62, 0.8) 100%);">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading">About LIFE</h2>
-                    <h3 class="section-subheading text-muted">Our History</h3>
-                </div>
-                <ul class="timeline">
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/LifeAbout.png" alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h6>2009</h6>
-                                <h6 class="subheading font-italic">Write the Vision, Make it Plain</h6>
-                            </div>
-                            <div class="timeline-body"><p class="text-dark">​The Lord led Terence Merritt, M.D. to establish a ministry in Atlanta. The ministry was to be called the LIFE Church (John 10:10b “I am come that they might have life, and that they might have it more abundantly.”). Without any outside financial support and without any initial members, Dr. Merritt leased a building in the Candler Park neighborhood and began renovating it. This location, 344 Candler Park Drive, NE, became the birth place of LIFE Church. Dr. Merritt spent many hours in prayer in the building, before any services were held. LIFE began as a house of prayer, and continues to be so today. </p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/Life kids.jpeg" alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h6>2010</h6>
-                                <h6 class="subheading">And the Vision Shall Speak...</h6>
-                            </div>
-                            <div class="timeline-body"><p class="text-dark">January 20, Dr. Merritt began leading weekly Wednesday evening Bible Study, and in February, he began having Sunday services. On March 7, the doors of LIFE were opened for the first time, and seven persons joined the new ministry. For the first year, LIFE gathered for worship every Wednesday evening and every Sunday afternoon. At the end of 2010, God instructed Pastor Merritt to move LIFE’s service to Sunday morning, beginning the first Sunday of 2011.
-                            </p></div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/Mtg2.png" alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h6>2012-2016</h6>
-                                <h6 class="subheading">Exceeding Abundatly, Above All</h6>
-                            </div>
-                            <div class="timeline-body"><p class="text-dark">In December 2012, Pastor Merritt prophesied that 2013 would be a year of swift, sudden transitions for better, and in July, Dr. Merritt found what would become LIFE’s new home in Southwest Atlanta. In August, LIFE closed on the facility, and in September, LIFE moved into its new home. The Father favored the three year old ministry to purchase the 25,000 square foot facility and to obtain a mortgage for over $1 Million. The entire time LIFE leased the property in Candler Park, it remained an active listing on the MLS for sell, but there was not a single contract placed on the property, until after LIFE finalized the contract on its new facility. 
-                                In January 2016, LIFE officially closed on the property directly across the street from the main campus, and called it LIFE Plaza. This is the second acquisition of LIFE church.</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/LifeRed.png" alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h6>Today</h6>
-                                <h6 class="subheading">LIFE, More Abundantly</h6>
-                            </div>
-                            <div class="timeline-body"><p class="text-dark">God has tremendously blessed and favored LIFE. LIFE’s ministries, which include the intercessory ministry, the children’s ministry, teen mentorship, the prison ministry, feeding and clothing of the needy, an employment network, and benevolent assistance, reach and impact beyond the walls of LIFE. 
-
-                                LIFE Church is a place where "miracles are common". Since the inception of the ministry, there have been many reported miracles and deliverances. Testimonies of healing are prevalent throughout LIFE. Lives are being radically transformed for the better, and to date, the church is growing by leaps and bounds. 8 years later, we are still holding to our original mission "Passionately Loving God and Intentionally Loving People.” </p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <h4>
-                                <a type="link" class="text-light" href="connect.html">
-                                Connect
-                                <br />
-                                To
-                                <br />
-                                LIFE</a>
-                            </h4>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
+                 
+            </section>
         <!-- Team-->
         <section class="page-section bg-light" id="team">
             <div class="container">
@@ -319,8 +263,9 @@
                 </div>
             </div>
         </section>
-        <!-- Clients-->
-        <section class="page-section"  style="background: linear-gradient(to bottom, rgba(24, 37, 92, 0.5) 0%, rgba(177, 62, 62, 0.8) 100%);">
+                
+        <!-- Socials-->
+        <!-- <section class="page-section"  style="background: linear-gradient(to bottom, rgba(24, 37, 92, 0.5) 0%, rgba(177, 62, 62, 0.8) 100%);">
             <div class="container-sm">
                 <div class="text-center">
                    <h2 class="text-center">
@@ -333,7 +278,7 @@
                         <a class="ml-3" style="color:white" href="https://www.instagram.com/bestlifeatl/"><i class="fab fa-instagram fa-5x"></i></a>
                    </div>
                 
-        </section>
+        </section> -->
         <!-- Contact-->
         <section class="page-section" id="contact">
             <div class="container ">
@@ -352,9 +297,10 @@
                 <div class="row align-items-center">
                     <div class="col-lg-4 text-lg-left">Copyright © LIFE Church 2022</div>
                     <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/bestlifeatl"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.tiktok.com/t/ZTRMxQAs2/?k=1"><i class="fab fa-tiktok"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/lifechurch.9"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="https://instagram.com/bestlifeatl"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.youtube.com/channel/UCqzaMTW_OVvzr-Aa8TU4y1Q"><i class="fab fa-youtube"></i></a>
                     </div>
                     <div class="col-lg-4 text-lg-right">
                         <a type="button" class="mr-3" data-toggle="modal" data-target="#beliefModal">What We Believe</a>

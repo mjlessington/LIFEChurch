@@ -10138,6 +10138,8 @@ header.masthead {
   -webkit-filter: blur(8px);
   z-index: -1; /* This ensures the background stays behind the content */
 }
+//created to re-deploy
+
 @media (min-width:1460px) {
   #hide-img {
     max-height: 35rem;

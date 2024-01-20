@@ -10119,18 +10119,28 @@ img::-moz-selection {
   }
 }
 header.masthead {
+  position: relative;
   max-height: 35em;
   text-align: center;
-  background: black;
-  /* background-image: url("../assets/img/BigBanner.png"); */
+}
+.background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url("../assets/img/LifeBanner2024.jpeg");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  z-index: -1; /* This ensures the background stays behind the content */
 }
 @media (min-width:1460px) {
   #hide-img {
-    height: 35rem;
+    max-height: 35rem;
   }
 }
   
